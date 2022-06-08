@@ -23,3 +23,19 @@
     <code>src/main/webapp/app/common/primary/app/App.vue</code> to test hot module replacement.
   </p>
 </div>
+<div id="jwt-authentication">
+  <div v-if="isAuthenticated">
+    <p>You are connected as </p>
+    <div v-if="user.username == ''">
+      <button id="identify" @click.prevent="onConnect">click to see</button>
+    </div>
+    <div v-else>
+      <p>{{user.username}}</p>
+      <button id="logout" @click.prevent="onLogout">click to logout</button>
+    </div>
+  </div>
+  <div v-else>
+    <p>You are not connected</p>
+    <router-link to="/login">Login</router-link>
+  </div>
+</div>
