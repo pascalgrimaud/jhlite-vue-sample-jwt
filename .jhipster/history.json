@@ -1,0 +1,39 @@
+{
+  "values" : [ {
+    "serviceId" : "init",
+    "timestamp" : "2022-06-08T08:27:53.465637572Z"
+  }, {
+    "serviceId" : "maven-java",
+    "timestamp" : "2022-06-08T08:27:53.476726033Z"
+  }, {
+    "serviceId" : "github-actions",
+    "timestamp" : "2022-06-08T08:27:53.485257064Z"
+  }, {
+    "serviceId" : "java-base",
+    "timestamp" : "2022-06-08T08:27:53.495561139Z"
+  }, {
+    "serviceId" : "jacoco-check-min-coverage",
+    "timestamp" : "2022-06-08T08:27:53.505684904Z"
+  }, {
+    "serviceId" : "springboot",
+    "timestamp" : "2022-06-08T08:27:53.527613972Z"
+  }, {
+    "serviceId" : "springboot-tomcat",
+    "timestamp" : "2022-06-08T08:27:53.553049731Z"
+  }, {
+    "serviceId" : "springboot-actuator",
+    "timestamp" : "2022-06-08T08:27:53.563273707Z"
+  }, {
+    "serviceId" : "sonar-java-backend-and-frontend",
+    "timestamp" : "2022-06-08T08:27:53.577265938Z"
+  }, {
+    "serviceId" : "frontend-maven-plugin",
+    "timestamp" : "2022-06-08T08:27:53.600822902Z"
+  }, {
+    "serviceId" : "vue",
+    "timestamp" : "2022-06-08T08:27:53.620543951Z"
+  }, {
+    "serviceId" : "vue-pinia",
+    "timestamp" : "2022-06-08T08:27:53.629978537Z"
+  } ]
+}
