@@ -35,5 +35,8 @@
   }, {
     "serviceId" : "vue-pinia",
     "timestamp" : "2022-06-08T08:27:53.629978537Z"
+  }, {
+    "serviceId" : "vue-jwt",
+    "timestamp" : "2022-06-08T08:29:20.876754628Z"
   } ]
 }
